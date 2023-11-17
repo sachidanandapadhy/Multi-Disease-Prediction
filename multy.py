@@ -3,11 +3,11 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-diabetes_model = pickle.load(open('F:/ML/multi disease/sachida.sav', 'rb'))
+diabetes_model = pickle.load(open('sachida.sav', 'rb'))
                         
-heart_disease_model = pickle.load(open('F:/ML/multi disease/padhy.sav', 'rb'))
+heart_disease_model = pickle.load(open('padhy.sav', 'rb'))
 
-parkinsons_model = pickle.load(open('F:/ML/multi disease/sachi.sav', 'rb'))
+parkinsons_model = pickle.load(open('sachi.sav', 'rb'))
 
 st.title("Multi Disease Prediction")
 
